@@ -1,41 +1,57 @@
-.App{
-    background: linear-gradient(
-        to right,
-        white, 
-        red
-    ) ;
+.App {
+    background: linear-gradient(to right,
+            white,
+            red);
     height: 100vh;
- 
-   
+    display: flex;
+    flex-direction: column;
 }
-.Top{
-    display:flex;
-    flex-direction:row;
+
+.Top {
+    display: flex;
+    flex-direction: row;
     -ms-flex-align: end;
     margin-left: 80%;
     ;
 }
-.linkin{
+
+.linkin {
     margin-left: 45%;
     margin-top: 20%;
-  
-    
-    
 }
 
-.github{
+.github {
     margin-top: 20%;
-    
-
-    
 }
 
-.img1{
-    height:35px;
-    width:35px;
+.img1 {
+    height: 35px;
+    width: 35px;
 }
 
-.img2{
-    height:25px;
+.img2 {
+    height: 25px;
     width: 25px;
+}
+
+.headArt {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+}
+
+.name {
+    font-size: 65px;
+    margin-left: 10%;
+}
+
+.photo {
+    margin-left: 35%;
+
+
+}
+
+.img3 {
+    height: 500px;
+    border-radius: 50%;
 }
